@@ -8,7 +8,7 @@
 
 ## TIMELINE:
 
-- 17 days (Oct 18 - Nov 4)
+- 7 days (8 Nov - 15 Nov)
 
 ## TARGET:
 
@@ -27,11 +27,11 @@
 
 ## WEB DESIGN:
 
-- [Design](https://www.figma.com/file/YZcol8bDDBUcNFmySANIiF/Untitled?type=design&node-id=8-16545&mode=design&t=eWo0HteCU3XGGiXc-0)
+- [Design](https://www.figma.com/file/YZcol8bDDBUcNFmySANIiF/Untitled?type=design&node-id=8-9808&mode=design&t=6wpFWbxut0dUnOoG-0)
 
 ## SOURCE CODE
 
-- To start: Clone project : git clone [git](https://github.com/DatWithTheWorld/practice_html_css_2)
+- To start: Clone project : git clone [git](https://github.com/DatWithTheWorld/practice-html-css-2)
 
 ## HOW TO RUN
 
@@ -39,7 +39,7 @@
 
 
 ```sh
-cd practice_html_css
+cd practice-html-css-2
 npm install
 npm run dev
 Open on web: http://localhost:1234
