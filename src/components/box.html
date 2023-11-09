@@ -1,0 +1,15 @@
+<each loop="item in {{ list }}">
+    <article class="{{ item.className }}">
+
+        <div class="content">
+            <p class="content__first__line">{{ item.firstLine }}</p>
+            <h1 class="content__secondary__line-h1">{{ item.secondaryLine }}</h1>
+            <h3 class="content__secondary__line-h3">{{ item.secondaryLIne }}</h3>
+            <p class="content__third__line">{{ item.thirdLine }}</p>
+        </div>
+        <figure class="image">
+            <img src="../assets/img/{{ item.imageLink }}.png" alt="{{ item.imageDesc }}">
+        </figure>
+    </article>
+    
+</each>
