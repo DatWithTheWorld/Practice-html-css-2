@@ -1,0 +1,47 @@
+<header class="header">
+    <div class="header__top">
+        <figure class="header__top--logo">
+            <img src="../assets/img/pic-symbologo.png" alt="Solo">
+            <figcaption>SoLo<span>.</span></figcaption>
+        </figure>
+        <nav class="header__top--nav">
+            <ul>
+                <include src="./components/navList.html" locals='{
+                    "classList":"nav_pk_items",
+                    "classLink":"nav_items",
+                    "list": "[`Downloads`,`Pricing`,`Features`,`About Us`,`Contact`]" 
+                }'>
+
+                </include>
+            </ul>
+        </nav>
+        <div class="header__top--button">
+            <button class="dark">Login</button>
+            <button class="active">Sign up</button>
+        </div>
+        <a class="header__top--menu">
+            <img src="../assets/icon/ic-logo-menu.svg" alt="menu">
+        </a>
+    </div>
+    <div class="header__bottom">
+        <include src="./components/box.html" locals='{
+        "list":[{"className":"header__bottom__card",
+        "firstLine":"RISK-FREE 30 DAY TRIAL",
+        "secondaryLine":"The best way to organize your work.",
+        "secondaryLines":"The best way to organize your work.",
+        "thirdLine":"Organize your tasks, lists and reminders in one app.",
+        "buttonFirst":"Try it free",
+        "buttonSecondaryLink":"ic-triangleplay",
+        "buttonSecondary":"Watch how it works",
+        "imageLink1":"pic-hero-Desktop",
+        "imageDesc1":"hero",
+        "imageLink2":"pic-hero-Tablet",
+        "imageDesc2":"hero",
+        "imageLink3":"pic-hero-Mobile",
+        "imageDesc3":"hero"
+}]
+       }'>
+
+        </include>
+    </div>
+</header>
